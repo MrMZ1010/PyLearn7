@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>483</width>
+    <height>366</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Remove Lines</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(85, 255, 127);
+color: rgb(255, 161, 107);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="6" column="0">
+     <widget class="QTextEdit" name="output">
+      <property name="styleSheet">
+       <string notr="true">border: 10px;
+background-color: rgb(255, 255, 127);
+color: rgb(50, 50, 50);
+border-radius: 50px ;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QRadioButton" name="p_breaker">
+      <property name="font">
+       <font>
+        <family>Dosis ExtraBold</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>REMOVE LINE BREAKS AND PARAGRAPH BREAKS</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QRadioButton" name="l_breaker">
+      <property name="font">
+       <font>
+        <family>Dosis ExtraBold</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>REMOVE LINE BREAKS ONLY</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QTextEdit" name="input">
+      <property name="styleSheet">
+       <string notr="true">border: 10px;
+background-color:rgb(255, 255, 127);
+color: rgb(50, 50, 50);
+border-radius: 50px ;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QPushButton" name="btn_copy_to_clipboard">
+      <property name="font">
+       <font>
+        <family>Dosis ExtraBold</family>
+        <pointsize>13</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 10px;
+background-color: rgb(85, 170, 255);
+color: rgb(50, 50, 50);
+border-radius: 10px ;</string>
+      </property>
+      <property name="text">
+       <string>COPY TO CLIPBOARD</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QPushButton" name="btn_line_breaker">
+      <property name="font">
+       <font>
+        <family>Dosis ExtraBold</family>
+        <pointsize>13</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 10px;
+background-color:rgb(85, 170, 255);
+color: rgb(50, 50, 50);
+border-radius: 10px ;</string>
+      </property>
+      <property name="text">
+       <string>REMOVE LINE BREAKS</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
