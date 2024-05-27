@@ -1,4 +1,4 @@
-# PyLearn
+# PyLearn7
 
 Python zero to hero for artificial intelligence and machine Learning course 
 
