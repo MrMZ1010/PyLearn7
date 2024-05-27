@@ -33,9 +33,6 @@ This Snake game offers an enhanced gaming experience with additional features an
 - `foods.py`: Defines classes for different types of food items such as apples, pears, and 'shits.'
 - `main.py`: Entry point for the game. Initializes the game window and runs the game loop.
 
-## Getting Started
-To run any of these Snake game projects, make sure you have Python installed on your system. You'll also need to install the Arcade library. You can install it via pip:
+## Contributing
 
-```bash
-pip install arcade
-```
+Contributions to improve the game's features, user interface, or code structure are welcome. Please feel free to submit issues or pull requests.
