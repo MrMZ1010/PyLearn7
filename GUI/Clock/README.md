@@ -5,12 +5,17 @@ This project is a multi-functional clock application built using Python and PySi
 ## Features
 
 - **Stopwatch**: Start, stop, and reset the stopwatch.
+ 
 ![StopWatch](stopwatch.PNG)
+
 - **Timer**: Set a timer with hours, minutes, and seconds. Start, stop, and reset the timer.
+  
 ![Timer](timer.PNG)
 - **World Clock**: Display the current time in Iran, Germany, and the USA.
-![WorldClcok](WorldClock.PNG)
+  
+![WorldClcok](Worldclock.PNG)
 - **Alarm System**: Add, edit, and delete alarms with a specified time and date.
+  
 ![Alarm](alarm.PNG)
 
 ## Installation
