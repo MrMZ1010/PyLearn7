@@ -8,4 +8,5 @@ Python zero to hero for artificial intelligence and machine Learning course
 | - | ------------------------------------------- | ------------------------------- |
 | 1 | [Basic](./Basic/)                           | Python programming introduction |
 | 2 | [GUI](./GUI/)                               | PyGame, arcade and Qt            |
+| 2 | [Image-Processing](./Image-Processing/)     | OpenCv           |
 
